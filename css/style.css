@@ -3,6 +3,7 @@
 
 body{
     font-family: Roboto;
+    color: var(--bold-text-color);
 }
 :root{
     --active-color:#2196F3;
@@ -20,7 +21,7 @@ font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
-line-height: 31px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: black;
 text-decoration: none;
@@ -41,9 +42,8 @@ text-decoration: none;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
-color: var(--bold-text-color);
 text-decoration: none;
 }
 .menu__link:hover,.menu__link:focus{
@@ -59,7 +59,7 @@ text-decoration: none;
 font-style: normal;
 font-weight: 500;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--grey-text-color);
 text-decoration: none;
@@ -75,7 +75,7 @@ text-decoration: none;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
@@ -87,7 +87,7 @@ cursor: pointer;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 30px;
+line-height: 1.87;
 text-align: center;
 letter-spacing: 0.06em;
 }
@@ -97,22 +97,21 @@ letter-spacing: 0.06em;
 }
 .peculiarities__item {
 }
-.item-ppeculiarities {
+.item-peculiarities {
 }
-.item-ppeculiarities__title {
+.item-peculiarities__title {
 font-style: normal;
 font-weight: bold;
 font-size: 14px;
-line-height: 16px;
+line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-color: var(--bold-text-color);
 }
-.item-ppeculiarities__text {
+.item-peculiarities__text {
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: var(--grey-text-color);
 }
@@ -122,10 +121,9 @@ color: var(--grey-text-color);
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--bold-text-color);
 }
 .occupation__list {
 }
@@ -138,10 +136,9 @@ color: var(--bold-text-color);
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+line-height: 1.17;
 text-align: center;
 letter-spacing: 0.03em;
-color: var(--bold-text-color);
 }
 .team__cards {
 
@@ -154,15 +151,15 @@ color: var(--bold-text-color);
 font-style: normal;
 font-weight: 500;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 letter-spacing: 0.03em;
-color: var(--bold-text-color);
+
 }
 .card-team__text {
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
-line-height: 19px;
+line-height: 1.19;
 letter-spacing: 0.03em;
 color: var(--grey-text-color);
 }
@@ -178,7 +175,7 @@ color: var(--grey-text-color);
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: white;
 }
@@ -192,11 +189,72 @@ color: white;
 font-style: normal;
 font-weight: normal;
 font-size: 14px;
-line-height: 24px;
+line-height: 1.7;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
 text-decoration: none;
 }
 .contacts-footer__link:hover,.contacts-footer__link:focus{
     color: var(--active-color);
+}
+
+
+/* ================Portfolio============================== */
+
+.portfolio {
+}
+.portfolio__filter {
+}
+.filter {
+}
+.filter__list {
+}
+.filter__item {
+    
+}
+.filter__item button {
+cursor: pointer;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+.filter__item.active button {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+color: white;
+background-color: var(--active-color);
+}
+
+.portfolio__cards {
+}
+.portfolio__card {
+}
+.card-portfolio {
+}
+.card-portfolio__link {
+    text-decoration: none;
+}
+.card-portfolio__title {
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: var(--bold-text-color);
+
+}
+.card-portfolio__text {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.03em;
+color: var(--grey-text-color);
 }
