@@ -141,8 +141,7 @@ text-decoration: none;
 }
 .order__container{
     width: 100%;
-    height: 412px;
-    margin: 0 auto;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -212,6 +211,9 @@ color: var(--grey-text-color);
 }
 .occupation {
 }
+.occupation__section{
+    padding: 0 0 94px 0;
+}
 .occupation__title {
 font-style: normal;
 font-weight: bold;
@@ -233,6 +235,9 @@ margin-right: 0px;
 .team {
     background-color: #F5F4FA;
 
+}
+.team__section{
+    padding: 0 0 94px 0;
 }
 .team__title {
 font-style: normal;
@@ -333,17 +338,26 @@ text-decoration: none;
 /* ================Portfolio============================== */
 
 .portfolio {
+    
 }
 .portfolio__filter {
 }
 .filter {
+    margin-bottom: 50px;
 }
 .filter__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .filter__item {
-    
+    margin-right: 8px;
+}
+.filter__item:last-child {
+    margin-right: 0px;
 }
 .filter__item button {
+height: 38px;
 cursor: pointer;
 font-style: normal;
 font-weight: 500;
@@ -352,39 +366,57 @@ line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 background-color: #F5F4FA;
+ border-radius: 4px;
+padding: 6px 22px;
 }
 .filter__item button:hover {
     background-color: var(--active-color);
     color: white;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+   
 }
 .filter__item.active button {
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-text-align: center;
-letter-spacing: 0.03em;
 color: white;
 background-color: var(--active-color);
+
 }
 
 .portfolio__cards {
+    display: flex;
+    flex-wrap: wrap;
 }
 .portfolio__card {
+    margin-bottom: 30px;
+    margin-right: 27px;
 }
+
+
+.portfolio__card:nth-child(3n+3) {
+
+    margin-right: 0px;
+}
+
+
 .card-portfolio {
+
 }
+
 .card-portfolio__link {
-    text-decoration: none;
+text-decoration: none;
+
 }
 .card-portfolio__title {
+ display: block;
 font-style: normal;
 font-weight: bold;
 font-size: 18px;
 line-height: 2;
 letter-spacing: 0.06em;
 color: var(--bold-text-color);
-
+margin: -4px 0 0px 0;
+padding: 24px 0 0 24px;
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
 }
 .card-portfolio__text {
 font-style: normal;
@@ -393,4 +425,9 @@ font-size: 16px;
 line-height: 1.87;
 letter-spacing: 0.03em;
 color: var(--grey-text-color);
+padding: 0 0 20px 24px;
+border-left: 1px solid #EEEEEE;
+border-right: 1px solid #EEEEEE;
+border-bottom: 1px solid #EEEEEE;
+
 }
