@@ -32,7 +32,7 @@
     </header>
     <main>
         <section class="order">
-            <div class="order__container">
+            <div class="order__container container">
                 <h1 class="order__title">Эффективные решения <br> для вашего бизнеса</h1>
                 <button type="button" class="order__button">Заказать услугу</button>
             </div>
@@ -86,20 +86,31 @@
                 <h2 class="team__title">Наша команда</h2>
                 <ul class="team__cards card-team">
                     <li class="card-team__item"> <img src="./img/team/1.jpg" width="270" alt="Фото члена команды">
-                        <h3 class="card-team__title">Игорь Демьяненко</h3>
-                        <p class="card-team__text">Designer</p>
+                        <div class="card-team__content">
+                            <h3 class="card-team__title">Игорь Демьяненко</h3>
+                            <p class="card-team__text">Designer</p>
+                        </div>
+                        
                     </li>
                     <li class="card-team__item"> <img src="./img/team/2.jpg" width="270" alt="Фото члена команды">
-                        <h3 class="card-team__title">Ольга Репина</h3>
-                        <p class="card-team__text">Frontend Developer</p>
+                        <div class="card-team__text">
+                            <h3 class="card-team__title">Ольга Репина</h3>
+                            <p class="card-team__text">Frontend Developer</p>
+                        </div>
+                        
                     </li>
                     <li class="card-team__item"> <img src="./img/team/3.jpg" width="270" alt="Фото члена команды">
+                        <div class="card-team__text">
                         <h3 class="card-team__title">Николай Тарасов</h3>
-                        <p class="card-team__text"> Marketing</p>
+                        <p class="card-team__text"> Marketing</p></div>
+                        
                     </li>
                     <li class="card-team__item"> <img src="./img/team/4.jpg" width="270" alt="Фото члена команды">
-                        <h3 class="card-team__title">Михаил Ермаков</h3>
-                        <p class="card-team__text">UI Designer</p>
+                        <div class="card-team__text">
+                            <h3 class="card-team__title">Михаил Ермаков</h3>
+                            <p class="card-team__text">UI Designer</p>
+                        </div>
+                        
                     </li>
                 </ul>
             </div>
@@ -111,7 +122,7 @@
                 <span>Web</span>Studio
             </a>
             <address class="footer__address">
-                <div class="footer__street"><p>г. Киев, пр-т Леси Украинки, 26</p></div>
+                <p>г. Киев, пр-т Леси Украинки, 26</p>
                 <ul class="footer__contacts contacts-footer">
                     <li class="contacts-footer__item"><a href="mailto:info@devstudio.com"
                             class="contacts-footer__link">info@devstudio.com</a></li>
