@@ -314,16 +314,18 @@ color: var(--grey-text-color);
 .card-team__icons{
     min-height: 44px;
     display: flex;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 32px;
-    fill: #AFB1B8;
+    justify-content: center;
     margin-bottom: 30px;
+    fill: #AFB1B8;
+    
 }
  .card-team__icons li{
     width: 44px;
-    padding: 11px 0 0 0;
+    padding: 11px 0 0 12px;
+    margin-right: 10px;
+} 
+ .card-team__icons li:last-child{
+    margin: 0;
 } 
 
 .card-team__icons li:hover,.card-team__icons li:focus{
