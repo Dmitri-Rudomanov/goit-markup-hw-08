@@ -290,7 +290,7 @@ display: flex;
     margin-right: 0px;
 }
 .card-team__content{
-    padding: 30px 50px 20px 50px;
+    padding: 30px 32px 30px 32px;
     
 }
 .card-team__title {
@@ -347,6 +347,8 @@ height: 92px;
 display: flex;
 justify-content: center;
 align-items: center;
+border: 1px solid #AFB1B8;
+border-radius: 5px;
 }
 .clients__list{
 display: flex;
@@ -355,8 +357,7 @@ text-align: center;
 }
 .clients__list li{
 width: 170px;
-border: 1px solid #AFB1B8;
-border-radius: 5px;
+
 margin-right: 30px;
 
 }
@@ -366,6 +367,7 @@ margin-right: 30px;
 .clients__links:hover,.clients__links:focus{
 fill: var(--active-color);
 border: 1px solid var(--active-color);
+border-radius: 5px;
 
 }
 .footer {
@@ -411,6 +413,9 @@ color: #fff;
     background-color: #43444d;
 
 } 
+.footer__icons li:last-child{
+margin:0;
+}
 
 .footer__links:hover,.footer__links:focus{
     fill: white;
