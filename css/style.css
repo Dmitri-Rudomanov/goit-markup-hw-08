@@ -544,7 +544,7 @@ height: 30px;
     pointer-events: none;
     
 }
-.is-hidden .backdrop__modal{
+.backdrop.is-hidden .backdrop__modal{
     transform: scale(0);
 
 }
