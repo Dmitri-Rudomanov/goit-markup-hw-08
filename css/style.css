@@ -270,14 +270,36 @@ margin-bottom: 50px;
 .occupation__title {
 
 }
+
+
 .occupation__list {
     display: flex;
 }
 .occupation__item {
+position: relative;
 margin-right: 30px;
 width: 370px;
 }
-
+.occupation__text{
+position: absolute;
+width: 100%;
+bottom: 0;
+left: 0;
+background-color: rgba(47, 48, 58, 0.8);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.occupation__text p{
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding: 27px 0;
+}
 .occupation__item:last-child {
 margin-right: 0px;
 }
