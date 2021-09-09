@@ -412,6 +412,7 @@ border: 1px solid var(--active-color);
 }
 .footer__container{
 display: flex;
+justify-content: space-between;
 align-items: baseline;
 }
 .footer__column{
@@ -498,6 +499,62 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .contacts-footer__link:hover,.contacts-footer__link:focus{
     color: var(--active-color);
 }
+
+/*=======================Footer-form===========================*/
+.footer__form {
+
+}
+.form-footer {
+    
+}
+.form-footer__title {
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+.form-footer__input{
+padding:12px 16px;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+width: 358px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+box-sizing: border-box;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+outline: none;
+border-radius: 4px;
+background-color: transparent;
+}
+.form-footer__form {
+    display: flex;
+}
+.form-footer__button {
+background-color: var(--active-color);
+margin-left: 12px;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 10px 29px;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.form-footer__button span {
+display: inline-block;
+margin-right: 10px;
+font-weight: bold;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+color: #FFFFFF;
+}
+
 /*===================Backdrop=====================*/
 .backdrop {
 position: fixed;
