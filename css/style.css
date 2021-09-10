@@ -536,6 +536,7 @@ background-color: transparent;
     display: flex;
 }
 .form-footer__button {
+cursor: pointer;
 background-color: var(--active-color);
 margin-left: 12px;
 display: flex;
