@@ -606,6 +606,73 @@ height: 30px;
     transform: scale(0);
 
 }
+.backdrop__modal {
+}
+.modal {
+    padding: 40px;
+}
+.backdrop__close {
+}
+.modal__title {
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+margin-bottom: 12px;
+}
+.modal__form {
+}
+.modal__list {
+}
+.modal__item {
+    position: relative;
+    margin-bottom: 10px;
+}
+.modal__item:last-child{
+    margin-bottom: 0;
+}
+.modal__lable {
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 0.01em;
+color: #757575;
+margin-bottom: 4px;
+}
+.modal__input {
+    width: 448px;
+    height: 40px;
+    padding: 12px 0 12px 42px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+}
+.modal__icon {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+}
+.modal__icon svg {
+    fill: #212121;
+}
+.modal__comment {
+}
+.comment {
+}
+.comment__label {
+}
+.comment__input {
+}
+.modal__agreement {
+}
+.modal__checkbox {
+}
+.checkbox__icon {
+}
+.modal__link {
+}
+.modal__button {
+}
 /* ================Portfolio============================== */
 
 .portfolio {
