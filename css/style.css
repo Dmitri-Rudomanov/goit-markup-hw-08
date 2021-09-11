@@ -711,7 +711,7 @@ position: absolute;
 .modal__checkbox:checked + .checkbox__icon {
   border-color: transparent;
   background-color: var(--active-color);
-  background-image: url(../img/check.svg);
+  background-image: url(../img/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
   background-repeat: no-repeat;
