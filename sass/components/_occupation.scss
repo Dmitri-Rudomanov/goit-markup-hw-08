@@ -1,0 +1,38 @@
+.occupation {
+}
+
+.occupation__section{
+    padding: 0 0 94px 0;
+}
+
+.occupation__list {
+    display: flex;
+}
+.occupation__item {
+position: relative;
+margin-right: 30px;
+width: 370px;
+&:last-child {
+margin-right: 0px;
+}
+}
+.occupation__text{
+position: absolute;
+width: 100%;
+bottom: 0;
+left: 0;
+background-color: rgba(47, 48, 58, 0.8);
+display: flex;
+justify-content: center;
+align-items: center;
+p{
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #FFFFFF;
+padding: 27px 0;
+}
+}

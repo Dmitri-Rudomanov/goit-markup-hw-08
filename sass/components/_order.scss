@@ -1,0 +1,43 @@
+.order {
+    background-image: linear-gradient( rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../img/bg-1.jpg');
+    background-repeat: no-repeat;
+    max-width: 1600px;
+    text-align: center;
+    padding: 200px 0;
+    margin: 0 auto;
+}
+
+
+.order__container{ 
+
+}
+
+.order__title {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: white;
+margin-bottom: 30px;
+}
+.order__button {
+cursor: pointer;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 1.87;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: var(--active-color);
+color: white;
+width: 200px;
+height: 50px;
+border-radius: 5px;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+&:hover{
+background-color: #188CE8;
+}
+}
