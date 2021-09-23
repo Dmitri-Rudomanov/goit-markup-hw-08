@@ -23,8 +23,18 @@ position: relative;
     padding: 0 15px;
     margin: 0 auto;
 }
-.section{
+.section {
+  @media screen and (max-width: 480px) {
+    padding: 60px 0;
+  }
+
+  @media screen and (min-width: 480px) {
+    padding: 60px 0;
+  }
+
+  @media screen and (min-width: 1200px) {
     padding: 94px 0;
+  }
 }
 .logo {
 font-family: Raleway,sans-serif;

@@ -1,10 +1,53 @@
 .order {
-    background-image: linear-gradient( rgba(47, 48, 58, 0.4),rgba(47, 48, 58, 0.4)), url('../img/bg-1.jpg');
-    background-repeat: no-repeat;
     max-width: 1600px;
     text-align: center;
     padding: 200px 0;
     margin: 0 auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.6),rgba(47, 48, 58, 0.6)),url('../img/hero/bg1x.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  @media screen and (min-resolution: 2dppx) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.6),
+        rgba(47, 48, 58, 0.6)
+      ),
+      url('../img/hero/bg2x.jpg');
+  }
+
+   @media screen and (min-width: 480px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.6),
+        rgba(47, 48, 58, 0.6)
+      ),
+      url('../img/hero/bgt1x.jpg');
+
+    @media screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.6),
+          rgba(47, 48, 58, 0.6)
+        ),
+        url('../img/hero/bgt2x.jpg');
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    background-image: linear-gradient(
+        rgba(47, 48, 58, 0.6),
+        rgba(47, 48, 58, 0.6)
+      ),
+      url('../img/hero/bgd1x.jpg');
+
+    @media screen and (min-resolution: 2dppx) {
+      background-image: linear-gradient(
+          rgba(47, 48, 58, 0.6),
+          rgba(47, 48, 58, 0.6)
+        ),
+        url('../img/hero/bgd2x.jpg');
+    }
+  }
+
 }
 
 
@@ -13,15 +56,18 @@
 }
 
 .order__title {
-font-style: normal;
 font-weight: 900;
-font-size: 44px;
+font-size: 26px;
 line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: white;
 margin-bottom: 30px;
+color: #FFFFFF;
+@media (min-width:768px) {
+font-size: 44px;
+}
 }
 .order__button {
 cursor: pointer;
