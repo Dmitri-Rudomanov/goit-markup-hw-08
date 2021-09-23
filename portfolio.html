@@ -16,12 +16,38 @@
                 <a href="" class="header__logo logo">
                     <span>Web</span>Studio
                 </a>
+                <button type="button" class="menu-burger" aria-expanded="false" aria-controls="menu-container" data-menu-button>
+                    <svg width="24" height="16" aria-label="Mеню">
+                        <use class="icon-cross" href="./img/icons.svg#icon-close-burger"></use>
+                        <use class="icon-menu" href="./img/icons.svg#icon-menu-burger"></use>
+                    </svg>
+                </button>
                 <nav class="header__menu menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="./index.html" class="menu__link">Студия</a></li>
-                        <li class="menu__item"><a href="" class="menu__link  active">Портфолио</a></li>
-                        <li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
-                    </ul>
+                    <div class="menu__body" data-menu>
+                        <ul class="menu__list">
+                            <li class="menu__item"><a href="./index.html" class="menu__link ">Студия</a></li>
+                            <li class="menu__item"><a href="" class="menu__link active">Портфолио</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Контакты</a></li>
+                        </ul>
+                        <ul class="menu__contacts">
+                            <li><a href="tel:+380961111111"><span>+38 096 111 11 11</span></a></li>
+                            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        </ul>
+                        <ul class="menu__socials">
+                            <li>
+                                <a href="">Instagram</a>
+                            </li>
+                            <li>
+                                <a href="">Twitter</a>
+                            </li>
+                            <li>
+                                <a href="">Facebook</a>
+                            </li>
+                            <li>
+                                <a href="">Linkedin</a>
+                            </li>
+                        </ul>
+                    </div>
                 </nav>
         
                 <ul class="header__contacts contacts-header">
@@ -297,5 +323,6 @@
             </div>
         </footer>
  </div>
+<script src="./js/script.js"></script>
 </body>
 </html>

@@ -2,7 +2,9 @@ body{
     font-family: var(--main-font);
     color: var(--bold-text-color);
     position: relative;
-    overflow: hidden;
+    &.overflowed{
+        overflow: hidden;
+    }
 }
 .wrapper{
 position: relative;
