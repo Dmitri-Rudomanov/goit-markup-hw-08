@@ -1,8 +1,13 @@
 .occupation {
+    
 }
 
 .occupation__section{
     padding: 0 0 94px 0;
+    display: none;
+    @media (min-width:768px) {
+    display: block;
+    }
 }
 
 .occupation__list {
