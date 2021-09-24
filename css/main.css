@@ -1347,6 +1347,12 @@ img {
   margin-bottom: 50px;
 }
 
+@media (max-width: 768px) {
+  .filter__list {
+    flex-wrap: wrap;
+  }
+}
+
 .filter__item {
   margin-right: 8px;
 }
