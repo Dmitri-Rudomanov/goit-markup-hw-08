@@ -3,19 +3,51 @@
 }
 
 .team__cards {
+display: block;
+@media (min-width:768px) {
 display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
 
 }
 
 .card-team__item {
-    width: 270px;
-    margin-right: 30px;
+    width: 100%;
+    margin: 0 0 30px 0;
+    &:last-child{
+        margin: 0;
+    }
+  
+   @media (min-width:768px) {
+    width: 47.5%;
+    &:nth-child(1){
+        margin: 0 30px 30px 0;
+    }
+    &:nth-child(2){
+        margin: 0 0px 30px 0;
+    }
+    &:nth-child(3){
+        margin: 0 30px 0px 0;
+    }
+    &:nth-child(4){
+        margin: 0;
+    }
+   }
+    @media (min-width:1200px) {
+   width: 270px;
+   margin: 0 30px 0 0;
+   &:nth-child(n){
+       margin: 0 30px 0 0;
+   }
+   &:last-child{
+       margin: 0;
+   }
+   }
     background-color: #fff;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    &:last-child {
-    margin-right: 0px;
-}
+ 
 
 }
 .card-team__content{
