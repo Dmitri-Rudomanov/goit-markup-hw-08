@@ -119,6 +119,12 @@ body.overflowed {
   transition: transform 500ms cubic-bezier(0.4, 0, 0.2, 1), opacity 500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .header {
   border-bottom: 1px solid #ECECEC;
   position: relative;
@@ -613,7 +619,6 @@ body.overflowed {
 }
 
 .team__section {
-  padding: 94px 0;
   background-color: #F5F4FA;
 }
 
