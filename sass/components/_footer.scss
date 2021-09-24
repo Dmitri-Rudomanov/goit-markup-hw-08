@@ -3,15 +3,40 @@
    padding: 60px 0;
 }
 .footer__container{
+display: block;
+text-align: center;
+@media (min-width:768px) {
 display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+@media (min-width:1200px) {
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
 justify-content: space-between;
 align-items: baseline;
 }
+}
 .footer__column{
+margin-bottom: 70px;
+text-align: center;
+&:last-child{
+    margin-bottom: 0;
+}
+@media (min-width:768px) {
+&:nth-child(3){
+    width: 100%;
+    text-align: center;
+}
+}
+@media (min-width:1200px) {
 margin-right: 70px;
 text-align: left;
 &:last-child{
 margin-right: 0px;
+}
 }
 }
 .footer__join{
@@ -25,7 +50,14 @@ text-transform: uppercase;
 color: #fff;
 }
 .footer__icons{
+    @media (min-width:768px) {
+    justify-content: center;
+    }
     display: flex;
+    justify-content: center;
+    @media (min-width:1200px) {
+    justify-content: stretch;
+    }
     li{
     margin-right: 10px;
     border-radius: 50%;
@@ -95,7 +127,18 @@ color: var(--active-color);
 
 }
 .form-footer {
-    
+@media (min-width:768px) {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+max-width: 450px;
+margin: 0 auto;
+}
+@media (min-width:1200px) {
+display: block;
+max-width: none;
+}
 }
 .form-footer__title {
 font-weight: bold;
@@ -107,14 +150,21 @@ color: #FFFFFF;
 margin-bottom: 20px;
 }
 .form-footer__input{
+@media (min-width:1200px) {
+width: 358px;
+display: flex;
+align-items: center;
+}
+@media (min-width:768px) {
+min-width: 450px;
+}
+display: block;
 padding:12px 16px;
 font-size: 16px;
 line-height: 20px;
-display: flex;
-align-items: center;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
-width: 358px;
+width: 100%;
 border: 1px solid rgba(255, 255, 255, 0.3);
 box-sizing: border-box;
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
@@ -123,13 +173,26 @@ border-radius: 4px;
 background-color: transparent;
 }
 .form-footer__form {
+    display: block;
+    text-align: center;
+    width: 100%;
+    @media (min-width:1200px) {
     display: flex;
+    flex-direction: row;
+    }
 }
 .form-footer__button {
+@media (min-width:1200px) {
+    display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 0px;
+}
+margin-top: 20px;
 cursor: pointer;
 background-color: var(--active-color);
 margin-left: 12px;
-display: flex;
+  display: inline-flex;
 align-items: center;
 justify-content: center;
 padding: 10px 29px;
