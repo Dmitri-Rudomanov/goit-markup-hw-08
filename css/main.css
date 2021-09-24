@@ -865,7 +865,6 @@ img {
 @media (min-width: 768px) {
   .footer__column:nth-child(3) {
     width: 100%;
-    text-align: center;
   }
 }
 
